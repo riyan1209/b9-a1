@@ -72,7 +72,6 @@
 .db-part-3 {
     color: #070211;
     text-align: center;
-    font-family: Inter;
     font-size: 38px;
     font-style: normal;
     font-weight: 800;
@@ -83,4 +82,117 @@
 .db-img-part {
     width: 652.9px;
     height: 350px;
+}
+
+/* Midnight Banner Part */
+.midnight-banner {
+    text-align: center;
+    position: relative;
+}
+
+.midnight-banner-img {
+    width: 1000px;
+    height: 400px;
+    filter: brightness(40%);
+
+}
+
+.mdb-text-1 {
+    position: relative;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    F
+}
+
+.mdb-text-2 {
+    position: relative;
+    position: absolute;
+    top: 34%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.mdb-text-3 {
+    position: relative;
+    position: absolute;
+    top: 58%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.mdb-text-4 {
+    position: relative;
+    position: absolute;
+    top: 65%;
+    left: 30.5%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.join-btn {
+    position: relative;
+    position: absolute;
+    top: 82%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: black;
+    background-color: orange;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.join-btn:hover {
+    color: green;
+    background: transparent;
+    cursor: pointer;
+}
+
+.midnight-banner-img-2 {
+    position: absolute;
+    top: 60%;
+    left: 75.5%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    height: 297px;
+    width: 250px;
+    
 }
