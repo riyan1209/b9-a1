@@ -1,0 +1,43 @@
+/* Banner Related Styles */
+.banner {
+    text-align: center;
+    position: relative;
+}
+
+.banner-img {
+    height: 50%;
+    width: 70%;
+    filter: brightness(50%);
+}
+
+.banner-text-1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-text-2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFF;
+
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
