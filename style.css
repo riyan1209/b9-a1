@@ -41,3 +41,46 @@
     line-height: 95px;
     /* 131.944% */
 }
+
+/* Discount Banner Start */
+
+.discount-banner {
+    text-align: center;
+}
+
+.db-part-1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.db-part-2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -50px;
+}
+
+.db-part-3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.db-img-part {
+    width: 652.9px;
+    height: 350px;
+}
