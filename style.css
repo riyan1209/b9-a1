@@ -358,3 +358,66 @@
     font-weight: 500;
     line-height: 20px
 }
+
+.dicsount-container {
+    display: flex;
+    justify-content: end;
+}
+
+.dicsount-container-sub-1 {
+    display: flex;
+}
+
+.dicsount-container-sub-2 {
+    margin-top: 113px;
+    margin-left: -157px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dicsount-container-sub-3 {
+    position: relative;
+    margin-bottom: -4px;
+}
+
+.rec-2 {
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 50px;
+}
+
+
+
+.awesome-portfolio-text{
+    padding: 20px;
+}
+.aw-h3 {
+    color: #F00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aw-h1 {
+    color: #070211;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+}
+
+.aw-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -10px;
+    
+}
