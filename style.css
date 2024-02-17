@@ -439,11 +439,11 @@
 }
 
 .row1 img:hover{
-    border-radius: 16px;
+    border-radius: 100%;
     border: 5px solid rgb(14, 63, 21);
 }
 .row2 img:hover{
-    border-radius: 16px;
+    border-radius: 100%;
     border: 5px solid rgb(14, 63, 21);
 }
 
@@ -532,6 +532,49 @@
 }
 
 .footer-container{
-    height: 50vh;
+    height: 70vh;
     background-color: black;
+}
+
+.footer-part-1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0px 40px;
+}
+
+.contact-div-1 {
+    display: flex;
+    
+}
+
+.con-p{
+    margin-right: 15px;
+    color: white;
+}
+
+.social-icon{
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 15px;
+
+}
+
+.social-icon img{
+    width: 40px;
+}
+
+.con-d{
+    margin-left: 38px;
+    color: white;
+}
+
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.btn-lst{
+    margin-right: 100px;
 }
